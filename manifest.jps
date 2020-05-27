@@ -143,7 +143,7 @@ actions:
   configure-MU:
     - install: ${baseUrl}/addon/WPMU.jps
       settings:
-        mode: subdir
+        mode: subdom
 
   install-wordpress:
     - install: ${baseUrl}/scripts/installWP.jps
